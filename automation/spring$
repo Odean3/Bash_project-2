@@ -1,0 +1,5 @@
+
+#! /usr/bin/bash
+
+flatpak kill io.dbeaver.DBeaverCommunity &
+flatpak kill com.getpostman.Postman &

@@ -1,0 +1,18 @@
+#! /usr/bin/bash
+
+days=$1
+
+# Get the current date in seconds
+current=$(date +%s)
+
+# Loop through all files in the current directory
+for file in *
+do
+  # Check if the file is older than X days
+  if [ -f "$file" ] && [ $(($current - $(date +%s -r "$file"))) -gt $(($days * 24 * 60 * 60)) ]
+  then
+    rm "$file"
+  else
+	echo "there are no files that are older than $days days"
+  fi   
+done
