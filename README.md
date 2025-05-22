@@ -18,15 +18,14 @@ for this workspace:
 - I need to enable the xampp server to activate the sql and apche servers
 - then i have to open vscode in /opt/lampp/htdocs directory
 - finally i have to run obsidian 
-for this particular workspace i made two scripts: php0(to launch all programs) and then php$(to shut down the running workspace).
-and an additional one to run superuser commands xmp
+for this particular workspace i made two scripts: **php0**(to launch all programs) and **xmp** an additional one to run superuser commands .
 ### springboot:
 as for this workspace:
 - i have to launch nvim in a springboot project directory of my choosing
 - then i have to launch dbeaver(a database management util)
 - after that is postman(for sending and receiving api requests)
 - finally i have to run obsidian
-i couldn't figure out a shutdown script for this workspace as most of the applications are flatpaks .
+for this workspace we first have **spring0** to run all programs and then **spring$** to shit down all the programs we have opened, thus ending our workspace session
 
 ## 3- Bonus
 unless you'd like to bother with bash and points slashes, you'd want to automate this a bit and run it directly from the command line as you would with cd, ls ..
