@@ -4,4 +4,3 @@ gnome-terminal -- nvim ~/Documents/Programming/Spring/$1  &
 flatpak run md.obsidian.Obsidian &
 flatpak run io.dbeaver.DBeaverCommunity &
 flatpak run com.getpostman.Postman &
-EOF
